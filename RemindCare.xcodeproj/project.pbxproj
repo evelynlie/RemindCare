@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E064BA12B141DD800F2147A /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E064BA02B141DD800F2147A /* MedicationView.swift */; };
+		2E064BA32B14758D00F2147A /* EditMedicationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E064BA22B14758D00F2147A /* EditMedicationSheet.swift */; };
+		2E064BA52B155F9600F2147A /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E064BA42B155F9600F2147A /* SplashScreenView.swift */; };
+		2E064BA72B15604B00F2147A /* AppStartUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E064BA62B15604B00F2147A /* AppStartUpView.swift */; };
+		2E064BA92B15633700F2147A /* ImageTranslations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E064BA82B15633700F2147A /* ImageTranslations.swift */; };
+		2E7AC0652B0C0C0100A2F387 /* AddNewMedicationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0642B0C0C0100A2F387 /* AddNewMedicationSheet.swift */; };
+		2E7AC0672B0C3FD600A2F387 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0662B0C3FD600A2F387 /* CameraView.swift */; };
+		2E7AC06D2B0D727D00A2F387 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC06C2B0D727D00A2F387 /* LibraryView.swift */; };
+		2E7AC06F2B0D735500A2F387 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC06E2B0D735500A2F387 /* Medicine.swift */; };
+		2E7AC0742B0D96D000A2F387 /* CustomSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0732B0D96D000A2F387 /* CustomSegmentedPicker.swift */; };
+		2E7AC0762B0D9AE000A2F387 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0752B0D9AE000A2F387 /* ColorExtension.swift */; };
+		2E7AC0782B0DFF7700A2F387 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0772B0DFF7700A2F387 /* HomeView.swift */; };
+		2E7AC07B2B0ECA6000A2F387 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC07A2B0ECA6000A2F387 /* CustomDatePicker.swift */; };
+		2E7AC07F2B0ED24200A2F387 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC07E2B0ED24200A2F387 /* DateValue.swift */; };
+		2E7AC0872B0EF3EA00A2F387 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7AC0862B0EF3EA00A2F387 /* WidgetKit.framework */; };
+		2E7AC0892B0EF3EA00A2F387 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7AC0882B0EF3EA00A2F387 /* SwiftUI.framework */; };
+		2E7AC08E2B0EF3EA00A2F387 /* RemindCareWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC08D2B0EF3EA00A2F387 /* RemindCareWidget.swift */; };
+		2E7AC0902B0EF3EC00A2F387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7AC08F2B0EF3EC00A2F387 /* Assets.xcassets */; };
+		2E7AC0942B0EF3EC00A2F387 /* RemindCareWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E7AC0842B0EF3EA00A2F387 /* RemindCareWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E7AC09A2B0F67E200A2F387 /* MedicineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AC0992B0F67E200A2F387 /* MedicineLayout.swift */; };
+		2E818FB72B0ACEF900CA4AE5 /* RemindCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E818FB62B0ACEF900CA4AE5 /* RemindCareApp.swift */; };
+		2E818FB92B0ACEF900CA4AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E818FB82B0ACEF900CA4AE5 /* ContentView.swift */; };
+		2E818FBB2B0ACEFA00CA4AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E818FBA2B0ACEFA00CA4AE5 /* Assets.xcassets */; };
+		2E818FBE2B0ACEFA00CA4AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E818FBD2B0ACEFA00CA4AE5 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E7AC0922B0EF3EC00A2F387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E818FAB2B0ACEF900CA4AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E7AC0832B0EF3EA00A2F387;
+			remoteInfo = RemindCareWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E7AC0982B0EF3EC00A2F387 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E7AC0942B0EF3EC00A2F387 /* RemindCareWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E064B9F2B10429000F2147A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2E064BA02B141DD800F2147A /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		2E064BA22B14758D00F2147A /* EditMedicationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMedicationSheet.swift; sourceTree = "<group>"; };
+		2E064BA42B155F9600F2147A /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		2E064BA62B15604B00F2147A /* AppStartUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartUpView.swift; sourceTree = "<group>"; };
+		2E064BA82B15633700F2147A /* ImageTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTranslations.swift; sourceTree = "<group>"; };
+		2E7AC0642B0C0C0100A2F387 /* AddNewMedicationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMedicationSheet.swift; sourceTree = "<group>"; };
+		2E7AC0662B0C3FD600A2F387 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2E7AC06C2B0D727D00A2F387 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		2E7AC06E2B0D735500A2F387 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		2E7AC0732B0D96D000A2F387 /* CustomSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedPicker.swift; sourceTree = "<group>"; };
+		2E7AC0752B0D9AE000A2F387 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2E7AC0772B0DFF7700A2F387 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E7AC07A2B0ECA6000A2F387 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		2E7AC07E2B0ED24200A2F387 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		2E7AC0842B0EF3EA00A2F387 /* RemindCareWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RemindCareWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7AC0862B0EF3EA00A2F387 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2E7AC0882B0EF3EA00A2F387 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2E7AC08D2B0EF3EA00A2F387 /* RemindCareWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindCareWidget.swift; sourceTree = "<group>"; };
+		2E7AC08F2B0EF3EC00A2F387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E7AC0912B0EF3EC00A2F387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7AC0992B0F67E200A2F387 /* MedicineLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineLayout.swift; sourceTree = "<group>"; };
+		2E818FB32B0ACEF900CA4AE5 /* RemindCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E818FB62B0ACEF900CA4AE5 /* RemindCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindCareApp.swift; sourceTree = "<group>"; };
+		2E818FB82B0ACEF900CA4AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E818FBA2B0ACEFA00CA4AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E818FBD2B0ACEFA00CA4AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7AC0812B0EF3EA00A2F387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7AC0892B0EF3EA00A2F387 /* SwiftUI.framework in Frameworks */,
+				2E7AC0872B0EF3EA00A2F387 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E818FB02B0ACEF900CA4AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7AC0722B0D96B300A2F387 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AC0732B0D96D000A2F387 /* CustomSegmentedPicker.swift */,
+				2E7AC0642B0C0C0100A2F387 /* AddNewMedicationSheet.swift */,
+				2E064BA22B14758D00F2147A /* EditMedicationSheet.swift */,
+				2E7AC0662B0C3FD600A2F387 /* CameraView.swift */,
+				2E064BA42B155F9600F2147A /* SplashScreenView.swift */,
+				2E7AC0992B0F67E200A2F387 /* MedicineLayout.swift */,
+				2E7AC07A2B0ECA6000A2F387 /* CustomDatePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2E7AC0792B0E2B9A00A2F387 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AC06E2B0D735500A2F387 /* Medicine.swift */,
+				2E7AC07E2B0ED24200A2F387 /* DateValue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E7AC0852B0EF3EA00A2F387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AC0862B0EF3EA00A2F387 /* WidgetKit.framework */,
+				2E7AC0882B0EF3EA00A2F387 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7AC08A2B0EF3EA00A2F387 /* RemindCareWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AC08D2B0EF3EA00A2F387 /* RemindCareWidget.swift */,
+				2E7AC08F2B0EF3EC00A2F387 /* Assets.xcassets */,
+				2E7AC0912B0EF3EC00A2F387 /* Info.plist */,
+			);
+			path = RemindCareWidget;
+			sourceTree = "<group>";
+		};
+		2E818FAA2B0ACEF900CA4AE5 = {
+			isa = PBXGroup;
+			children = (
+				2E818FB52B0ACEF900CA4AE5 /* RemindCare */,
+				2E7AC08A2B0EF3EA00A2F387 /* RemindCareWidget */,
+				2E7AC0852B0EF3EA00A2F387 /* Frameworks */,
+				2E818FB42B0ACEF900CA4AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E818FB42B0ACEF900CA4AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E818FB32B0ACEF900CA4AE5 /* RemindCare.app */,
+				2E7AC0842B0EF3EA00A2F387 /* RemindCareWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E818FB52B0ACEF900CA4AE5 /* RemindCare */ = {
+			isa = PBXGroup;
+			children = (
+				2E064B9F2B10429000F2147A /* Info.plist */,
+				2E7AC0722B0D96B300A2F387 /* Components */,
+				2E818FB62B0ACEF900CA4AE5 /* RemindCareApp.swift */,
+				2E7AC0772B0DFF7700A2F387 /* HomeView.swift */,
+				2E064BA62B15604B00F2147A /* AppStartUpView.swift */,
+				2E818FB82B0ACEF900CA4AE5 /* ContentView.swift */,
+				2E7AC06C2B0D727D00A2F387 /* LibraryView.swift */,
+				2E064BA02B141DD800F2147A /* MedicationView.swift */,
+				2E064BA82B15633700F2147A /* ImageTranslations.swift */,
+				2E7AC0792B0E2B9A00A2F387 /* Model */,
+				2E7AC0752B0D9AE000A2F387 /* ColorExtension.swift */,
+				2E818FBA2B0ACEFA00CA4AE5 /* Assets.xcassets */,
+				2E818FBC2B0ACEFA00CA4AE5 /* Preview Content */,
+			);
+			path = RemindCare;
+			sourceTree = "<group>";
+		};
+		2E818FBC2B0ACEFA00CA4AE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E818FBD2B0ACEFA00CA4AE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E7AC0832B0EF3EA00A2F387 /* RemindCareWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7AC0952B0EF3EC00A2F387 /* Build configuration list for PBXNativeTarget "RemindCareWidgetExtension" */;
+			buildPhases = (
+				2E7AC0802B0EF3EA00A2F387 /* Sources */,
+				2E7AC0812B0EF3EA00A2F387 /* Frameworks */,
+				2E7AC0822B0EF3EA00A2F387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemindCareWidgetExtension;
+			productName = RemindCareWidgetExtension;
+			productReference = 2E7AC0842B0EF3EA00A2F387 /* RemindCareWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2E818FB22B0ACEF900CA4AE5 /* RemindCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E818FC12B0ACEFA00CA4AE5 /* Build configuration list for PBXNativeTarget "RemindCare" */;
+			buildPhases = (
+				2E818FAF2B0ACEF900CA4AE5 /* Sources */,
+				2E818FB02B0ACEF900CA4AE5 /* Frameworks */,
+				2E818FB12B0ACEF900CA4AE5 /* Resources */,
+				2E7AC0982B0EF3EC00A2F387 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7AC0932B0EF3EC00A2F387 /* PBXTargetDependency */,
+			);
+			name = RemindCare;
+			productName = "Add Meds";
+			productReference = 2E818FB32B0ACEF900CA4AE5 /* RemindCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E818FAB2B0ACEF900CA4AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2E7AC0832B0EF3EA00A2F387 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2E818FB22B0ACEF900CA4AE5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E818FAE2B0ACEF900CA4AE5 /* Build configuration list for PBXProject "RemindCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E818FAA2B0ACEF900CA4AE5;
+			productRefGroup = 2E818FB42B0ACEF900CA4AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E818FB22B0ACEF900CA4AE5 /* RemindCare */,
+				2E7AC0832B0EF3EA00A2F387 /* RemindCareWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E7AC0822B0EF3EA00A2F387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7AC0902B0EF3EC00A2F387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E818FB12B0ACEF900CA4AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E818FBE2B0ACEFA00CA4AE5 /* Preview Assets.xcassets in Resources */,
+				2E818FBB2B0ACEFA00CA4AE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7AC0802B0EF3EA00A2F387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7AC08E2B0EF3EA00A2F387 /* RemindCareWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E818FAF2B0ACEF900CA4AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E064BA52B155F9600F2147A /* SplashScreenView.swift in Sources */,
+				2E7AC07B2B0ECA6000A2F387 /* CustomDatePicker.swift in Sources */,
+				2E818FB92B0ACEF900CA4AE5 /* ContentView.swift in Sources */,
+				2E064BA32B14758D00F2147A /* EditMedicationSheet.swift in Sources */,
+				2E7AC0652B0C0C0100A2F387 /* AddNewMedicationSheet.swift in Sources */,
+				2E7AC0782B0DFF7700A2F387 /* HomeView.swift in Sources */,
+				2E064BA92B15633700F2147A /* ImageTranslations.swift in Sources */,
+				2E7AC09A2B0F67E200A2F387 /* MedicineLayout.swift in Sources */,
+				2E7AC0742B0D96D000A2F387 /* CustomSegmentedPicker.swift in Sources */,
+				2E818FB72B0ACEF900CA4AE5 /* RemindCareApp.swift in Sources */,
+				2E7AC06F2B0D735500A2F387 /* Medicine.swift in Sources */,
+				2E7AC06D2B0D727D00A2F387 /* LibraryView.swift in Sources */,
+				2E7AC07F2B0ED24200A2F387 /* DateValue.swift in Sources */,
+				2E7AC0762B0D9AE000A2F387 /* ColorExtension.swift in Sources */,
+				2E064BA12B141DD800F2147A /* MedicationView.swift in Sources */,
+				2E064BA72B15604B00F2147A /* AppStartUpView.swift in Sources */,
+				2E7AC0672B0C3FD600A2F387 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E7AC0932B0EF3EC00A2F387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E7AC0832B0EF3EA00A2F387 /* RemindCareWidgetExtension */;
+			targetProxy = 2E7AC0922B0EF3EC00A2F387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E7AC0962B0EF3EC00A2F387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3R5NF88Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindCareWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RemindCareWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Evelyn.Add-Meds.RemindCareWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E7AC0972B0EF3EC00A2F387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3R5NF88Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindCareWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RemindCareWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Evelyn.Add-Meds.RemindCareWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E818FBF2B0ACEFA00CA4AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E818FC02B0ACEFA00CA4AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E818FC22B0ACEFA00CA4AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindCare/Preview Content\"";
+				DEVELOPMENT_TEAM = T3R5NF88Z9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindCare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos and videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Evelyn.Add-Meds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E818FC32B0ACEFA00CA4AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindCare/Preview Content\"";
+				DEVELOPMENT_TEAM = T3R5NF88Z9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindCare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos and videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Evelyn.Add-Meds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7AC0952B0EF3EC00A2F387 /* Build configuration list for PBXNativeTarget "RemindCareWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7AC0962B0EF3EC00A2F387 /* Debug */,
+				2E7AC0972B0EF3EC00A2F387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E818FAE2B0ACEF900CA4AE5 /* Build configuration list for PBXProject "RemindCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E818FBF2B0ACEFA00CA4AE5 /* Debug */,
+				2E818FC02B0ACEFA00CA4AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E818FC12B0ACEFA00CA4AE5 /* Build configuration list for PBXNativeTarget "RemindCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E818FC22B0ACEFA00CA4AE5 /* Debug */,
+				2E818FC32B0ACEFA00CA4AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E818FAB2B0ACEF900CA4AE5 /* Project object */;
+}
